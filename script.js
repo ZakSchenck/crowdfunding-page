@@ -58,6 +58,10 @@ noRewardButton3.addEventListener('change', function () {
     modalButton.style.display = 'none';
     priceContainer1.style.display = 'none';
     priceContainer2.style.display = 'flex';
+});
+
+modalButton.addEventListener('click', function () {
+    confirmationModal();
 })
 
 // Confirmation modal pop up
