@@ -61,6 +61,8 @@ noRewardButton3.addEventListener('change', function () {
 });
 
 modalButton.addEventListener('click', function () {
+    backers++
+    backersInput.innerText = backers
     confirmationModal();
 })
 
