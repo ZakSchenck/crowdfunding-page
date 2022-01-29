@@ -84,12 +84,14 @@ tipButton.addEventListener('click', function () {
     modal.style.display = 'flex';
 })
 
+// Get rid of modal backgrouynd
 modalBackground.addEventListener('click', function () {
     modalBackground.style.display = 'none';
     modal.style.display = 'none'
     confirmModal.style.display = 'none'
 })
 
+// Toggle bookmark 
 bookmarkToggle.addEventListener('click', function () {
     bookmarkToggle.classList.toggle('bookmarked');
     bookmarkText.classList.toggle('bookmarkclick');
